@@ -6,3 +6,4 @@
 * [Examples of STR2STR](examples-of-str2str.md)
 * [RPi](rpi/README.md)
   * [azul-rtk](rpi/azul-rtk.md)
+  * [azul-sonar](rpi/azul-sonar.md)
