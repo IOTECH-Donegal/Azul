@@ -33,3 +33,23 @@ GPS_AUTO_CONFIG = 0
 ```
 
 This verifies physical connectivity and the ability to navigate.
+
+## Arming
+
+I want to disable some of the safety parameters which are required for flying. First I diable the safety switch at startup.
+
+```
+BRD_SAFETY_DEFLT = 0
+```
+
+I now disable the failsafe completly.
+
+```
+FS_ACTION = 0
+```
+
+Finally, I disable the requirement to arm the boat.
+
+```
+ARMING_REQUIRE = 0
+```
